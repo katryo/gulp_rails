@@ -8,6 +8,7 @@
     "gulp-rev": "^2.0.1",
     "gulp-rev-rails-manifest": "0.0.1",
     "gulp-sass": "^1.2.2",
+    "gulp-util": "^3.0.1",
     "webpack": "^1.4.9"
   }
 }
