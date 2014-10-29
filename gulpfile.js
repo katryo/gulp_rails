@@ -15,3 +15,4 @@ gulp.task("webpack", function(callback) {
         callback();
     });
 });
+gulp.task('default', ['webpack']);
