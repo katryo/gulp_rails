@@ -8,7 +8,7 @@ gulp.task("webpack", function(callback) {
     webpack({
         entry: './bower_components/jquery/dist/jquery.min.js',
         output: {
-            filename: './app/assets/javascripts/bundle.js'
+            filename: './public/assets/bundle.js'
         },
  resolve: {
       modulesDirectories: ['node_modules', 'bower_components'],
