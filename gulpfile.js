@@ -6,7 +6,7 @@ var WebpackDevServer = require("webpack-dev-server");
 gulp.task("webpack", function(callback) {
     // run webpack
     webpack({
-        entry: './bower_components/jquery/dist/jquery.min.js',
+        entry: './app/assets/javascripts/welcome.js',
         output: {
             filename: './public/assets/bundle.js'
         },
