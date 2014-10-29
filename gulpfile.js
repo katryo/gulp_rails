@@ -6,10 +6,13 @@ var WebpackDevServer = require("webpack-dev-server");
 gulp.task("webpack", function(callback) {
     // run webpack
     webpack({
-        entry: './main.js',
+        entry: './bower_components/jquery/dist/jquery.min.js',
         output: {
-            filename: 'bundle.js'
+            filename: './app/assets/javascripts/bundle.js'
         },
+ resolve: {
+      modulesDirectories: ['node_modules', 'bower_components'],
+      }
         // configuration
     }, function(err, stats) {
         if(err) throw new gutil.PluginError("webpack", err);
@@ -19,8 +22,6 @@ gulp.task("webpack", function(callback) {
         callback();
     });
 });
-
-
 
 
 
