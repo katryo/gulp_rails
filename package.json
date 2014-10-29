@@ -4,6 +4,7 @@
   "description": "== README",
   "devDependencies": {
     "bower": "^1.3.12",
-    "gulp": "^3.8.9"
+    "gulp": "^3.8.9",
+    "gulp-rev": "^2.0.1"
   }
 }
