@@ -1,0 +1,15 @@
+{
+  "name": "gulp_rails",
+  "version": "0.0.0",
+  "authors": [
+    "Ryo Kato <ryo.a.kato@dena.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
