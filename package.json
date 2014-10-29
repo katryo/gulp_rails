@@ -1,5 +1,9 @@
 {
   "name": "gulp_rails",
   "version": "0.0.0",
-  "description": "== README"
+  "description": "== README",
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.9"
+  }
 }
